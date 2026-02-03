@@ -1,0 +1,46 @@
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+env/
+.env
+
+# Data Files (Block by default to avoid huge files)
+*.csv
+*.txt
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# --- Whitelist (Allow these specific small datasets for tutorials) ---
+!titanic_train.csv
+!titanic_test.csv
+!fetch_california_housing.csv
+!transfermarkt50.csv
+!kia.json
+!score.xlsx
+!score.csv
+!score.txt
+!data.xlsx
+!data.csv
+!data.json
+.env
